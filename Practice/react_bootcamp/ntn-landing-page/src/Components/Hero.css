@@ -1,0 +1,37 @@
+.hero {
+  background-color: #000;
+  color: #fff;
+  padding: 5rem 2rem;
+  text-align: center;
+  background-image: url('/assets/african-pattern-bg.jpg');
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  color: #D68A59; /* Raw Sienna */
+}
+
+.mission {
+  font-size: 1.5rem;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+  color: #fff;
+}
+
+.explore-btn {
+  background-color: #B87333; /* Copper */
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.explore-btn:hover {
+  background-color: #D68A59;
+}
