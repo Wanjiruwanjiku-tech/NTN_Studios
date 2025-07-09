@@ -1,0 +1,14 @@
+[
+  {
+    "id": "airway",
+    "title": "Airway Management",
+    "description": "Master airway techniques, tools, and complications.",
+    "content": "Airway management includes techniques such as head-tilt-chin-lift, jaw-thrust, BVM ventilation, suctioning, and advanced airway placement like endotracheal intubation..."
+  },
+  {
+    "id": "cardiac",
+    "title": "Cardiac Emergencies",
+    "description": "Identify and treat cardiac conditions like arrest, MI, and shock.",
+    "content": "CPR should be initiated immediately upon confirming cardiac arrest. Follow current ACLS protocols, understand ECG basics..."
+  }
+]
