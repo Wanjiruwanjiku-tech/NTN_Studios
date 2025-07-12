@@ -2,13 +2,113 @@
   {
     "id": "airway",
     "title": "Airway Management",
-    "description": "Master airway techniques, tools, and complications.",
-    "content": "Airway management includes techniques such as head-tilt-chin-lift, jaw-thrust, BVM ventilation, suctioning, and advanced airway placement like endotracheal intubation..."
+    "description": "How to assess and maintain a patient's airway.",
+    "content": "Airway management is a key life-saving skill. The goal is to keep the airway open and free of obstruction (Patent).\n\n## Key Steps in Airway Management\n\n1. **Look, Listen, Feel**:",
+    "quiz": [
+      {
+        "question": "What is the first step in basic airway assessment?",
+        "options": ["Look, listen, feel", "Intubation", "Pulse check", "Defibrillation"],
+        "answer": "Look, listen, feel"
+      },
+      {
+        "question": "Which airway device is inserted through the nose?",
+        "options": ["OPA", "NPA", "ET Tube", "Supraglottic"],
+        "answer": "NPA"
+      },
+      {
+        "question": "What is the Primary Goal of Airway Management?",
+        "options": ["To monitor blood pressure", "To ensure adequate oxygenation", "To maintain patent airway", "To provide ventilatory support"],
+        "answer": "To maintain patent airway"
+      },
+      {
+        "question": "What is the most common cause of airway obstruction in unconscious patients?",
+        "options": ["Tongue displacement", "Foreign body", "Swelling", "Fluid accumulation"],
+        "answer": "Tongue displacement"
+      },
+      {
+        "question": "What is the purpose of suctioning in airway management?",
+        "options": ["To clear secretions", "To provide oxygen", "To assess airway patency", "To administer medication"],
+        "answer": "To clear secretions"
+      },
+      {
+        "question": "Which technique is recommended for opening the airway in a trauma patient?",
+        "options": ["Bag-valve-mask", "Suctioning", "Head-tilt/Chin-lift", "Jaw-thrust"],
+        "answer": "Jaw-thrust"
+      },
+      {
+        "question": "What is the correct oxygen saturation (SpO2) target range during airway management?",
+        "options": ["80-85%", "90-94%", "95-100%", "100%"],
+        "answer": "90-94%"
+      },
+      {
+        "question": "What it the recommended ventilation rate for an adult using a BVM?",
+        "options": ["6-7 breaths/min", "10-12 breaths/min", "15-20 breaths/min", "20-25 breaths/min"],
+        "answer": "10-12 breaths/min"
+      },
+      {
+        "question": "Which airway device is suitable for a semi-concious patient with a partially obstructed airway?",
+        "options": ["Oropharyngeal airway", "Nasopharyngeal airway", "Endotracheal Tube", "Supraglottic airway"],
+        "answer": "Nasopharyngeal airway"
+      },
+      {
+        "question": "What is the purpose of Capnography during Airway Management?",
+        "options": ["To measure oxygen saturation", "To monitor carbon dioxide levels", "To assess blood pressure", "To monitor heart rate"],
+        "answer": "To monitor carbon dioxide levels"
+      },
+      {
+        "question": "What is the formula for calculating the correct ETT tube size for a pediatric patient?",
+        "options": ["(Age + 10)/2", "(Age + 16)/4", "(Age + 12)/3", "(Age + 8)/2"],
+        "answer": "(Age + 16)/4"
+      },
+      {
+        "question": "Which of the following is an indication for Endotracheal Intubation?",
+        "options": ["Respiratory distress", "Apnea", "Stable oxygen saturations", "Normal breathing pattern"],
+        "answer": "Apnea"
+      },
+      {
+        "question": "What is the preferred method for confirming correct placement of an Endotracheal Tube?",
+        "options": ["ETCO2 Monitoring", "Visual Inspection of the chest", "Bronchoscopy", "Pulse oximetry"],
+        "answer": "ETCO2 Monitoring"
+      },
+      {
+        "question": "What is the maximum suction pressure recommended for adults?",
+        "options": ["60 mmHg", "80 mmHg", "100 mmHg", "120 mmHg"],
+        "answer": "120 mmHg"
+      },
+      {
+        "question": "Which airway management technique is considered a last resort?",
+        "options": ["Bag-Valve-Mask (BVM)", "Endotracheal Intubation", "Cricothyrotomy", "Oropharyngeal Airway"],
+        "answer": "Cricothyrotomy"
+      },
+      {
+        "question": "What is the target ETCO2 range during effective Ventilation?",
+        "options": ["35-45 mmHg", "30-40 mmHg", "40-50 mmHg", "25-35 mmHg"],
+        "answer": "35-45 mmHg"
+      },
+      {
+        "question": "Which condition is best managed with CPAP or BiPAP?",
+        "options": ["Asthma exacerbation", "COPD exacerbation", "Pneumonia", "Pulmonary edema"],
+        "answer": "Pulmonary edema"
+      },
+      {
+        "question": "What is the recommended suction duration for infants?",
+        "options": ["5 seconds", "10 seconds", "15 seconds", "20 seconds"],
+        "answer": "10 seconds"
+      }
+    ]
   },
+  
   {
     "id": "cardiac",
     "title": "Cardiac Emergencies",
-    "description": "Identify and treat cardiac conditions like arrest, MI, and shock.",
-    "content": "CPR should be initiated immediately upon confirming cardiac arrest. Follow current ACLS protocols, understand ECG basics..."
+    "description": "Recognizing and managing heart-related conditions.",
+    "content": "Includes CPR, AED use, managing chest pain...",
+    "quiz": [
+      {
+        "question": "What does AED stand for?",
+        "options": ["Automated External Defibrillator", "Advanced Emergency Device", "Airway Emergency Device", "Arterial Electrical Detector"],
+        "answer": "Automated External Defibrillator"
+      }
+    ]
   }
 ]
