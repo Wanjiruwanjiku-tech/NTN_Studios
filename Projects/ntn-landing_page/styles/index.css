@@ -413,3 +413,44 @@ button:active {
   border-radius: 8px;
   margin-bottom: 1rem;
 }
+
+/* About page */
+
+.about-container {
+    padding: 2rem;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.155);
+    background-color: #0c0d0b;
+}
+
+.about-container h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.about-container p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+.about-container img {
+    float: left;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .about-container img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+    .about-container h2 {
+        font-size: 1.5rem;
+    }
+    .about-container p {
+        font-size: 1rem;
+    }
+    
+}
