@@ -17,9 +17,9 @@
 
 ### Quick Links
 
-[Go to Day 1](#day-one)
-[Go to Day 2](#day-two)
-[Go to Day 3](#day-three)
+- [Go to Day 1](#day-one)
+- [Go to Day 2](#day-two)
+- [Go to Day 3](#day-three)
 [Go to Day 4](#day-four)
 [Go to Day 5](#day-five)
 [Go to Day 6](#day-six)
