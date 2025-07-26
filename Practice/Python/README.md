@@ -13,36 +13,36 @@
 
 ### Quick Links
 
-[Go to Day 1](#day-one )
-[Go to Day 2](#day-two )
-[Go to Day 3](#day-three )
-[Go to Day 4](#day-four )
-[Go to Day 5](#day-five )
-[Go to Day 6](#day-six )
-[Go to Day 7](#day-seven )
-[Go to Day 8](#day-eight )
-[Go to Day 9](#day-nine )
-[Go to Day 10](#day-ten )
-[Go to Day 11](#day-eleven )
-[Go to Day 12](#day-tweleve )
-[Go to Day 13](#day-thirteen )
-[Go to Day 14](#day-fourteen )
-[Go to Day 15](#day-fifteen )
-[Go to Day 16](#day-sixteen )
-[Go to Day 17](#day-seventeen )
-[Go to Day 18](#day-eighteen )
-[Go to Day 19](#day-nineteen )
-[Go to Day 20](#day-twenty )
-[Go to Day 21](#day-twenty-one )
-[Go to Day 22](#day-twenty-two )
-[Go to Day 23](#day-twenty-three )
-[Go to Day 24](#day-twenty-four )
-[Go to Day 25](#day-twenty-five )
-[Go to Day 26](#day-twenty-six )
-[Go to Day 27](#day-twenty-seven )
-[Go to Day 28](#day-twenty-eight )
-[Go to Day 29](#day-twenty-nine )
-[Go to Day 30](#day-thirty )
+[Go to Day 1](#day-one )<br/>
+[Go to Day 2](#day-two )<br/>
+[Go to Day 3](#day-three )<br/>
+[Go to Day 4](#day-four )<br/>
+[Go to Day 5](#day-five )<br/>
+[Go to Day 6](#day-six )<br/>
+[Go to Day 7](#day-seven )<br/>
+[Go to Day 8](#day-eight )<br/>
+[Go to Day 9](#day-nine )<br/>
+[Go to Day 10](#day-ten )<br/>
+[Go to Day 11](#day-eleven )<br/>
+[Go to Day 12](#day-tweleve )<br/>
+[Go to Day 13](#day-thirteen )<br/>
+[Go to Day 14](#day-fourteen )<br/>
+[Go to Day 15](#day-fifteen )<br/>
+[Go to Day 16](#day-sixteen )<br/>
+[Go to Day 17](#day-seventeen )<br/>
+[Go to Day 18](#day-eighteen )<br/>
+[Go to Day 19](#day-nineteen )<br/>
+[Go to Day 20](#day-twenty )<br/>
+[Go to Day 21](#day-twenty-one )<br/>
+[Go to Day 22](#day-twenty-two )<br/>
+[Go to Day 23](#day-twenty-three )<br/>
+[Go to Day 24](#day-twenty-four )<br/>
+[Go to Day 25](#day-twenty-five )<br/>
+[Go to Day 26](#day-twenty-six )<br/>
+[Go to Day 27](#day-twenty-seven )<br/>
+[Go to Day 28](#day-twenty-eight )<br/>
+[Go to Day 29](#day-twenty-nine )<br/>
+[Go to Day 30](#day-thirty )<br/>
 
 ------------------------------------------------------------------------------------------
 # DAY ONE
