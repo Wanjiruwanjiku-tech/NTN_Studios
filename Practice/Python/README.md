@@ -21,7 +21,6 @@
 | [Go to Day 5](#day-five ) | [Go to Day 12](#day-tweleve ) | [Go to Day 19](#day-nineteen )  |
 | [Go to Day 6](#day-six )  | [Go to Day 13](#day-thirteen )| [Go to Day 20](#day-twenty )    |
 | [Go to Day 7](#day-seven )| [Go to Day 14](#day-fourteen )| [Go to Day 21](#day-twenty-one )|
----------------------------------------------------------------------------------------------------
 
 | __Week Four__                     | __Week Five__                    |
 |-----------------------------------|----------------------------------|
@@ -140,3 +139,66 @@
     print(f"I am {age} years old)
 
 ---------------------------------------------------------------------------------------------------------------------------------
+
+# _DAY SIX_
+## Type Conversion and Error Handling
+--------------------------------------
+
+- The goal is to _Learn how to convert between data types and handle errors gracefully so your program doesn't crash_.
+
+### Key Concepts.
+1. __Type conversion__
+
+    | __Function__   | __Converts to...__ | __Example__         | __Code__                      |
+    |----------------|--------------------|---------------------|-------------------------------|
+    | _int()_        | _Integer_          | int("4") => 4       | age = int("28")               |
+    | _str()_        | _String_           | str(4) => "4"       | print(str(age) + "years old") |
+    | _float()_      | _Float_            | int("4.12") => 4.12 | height = float("1.65")        |
+
+2. __Hanling Errors__
+    - Done using _try/except_ block. Used to prevent code crashes when the user enters the wrong input.
+
+        try:
+            age = int(input("Enter your age: "))
+            print(f"Next year you will be {age + 1}")
+        except ValueError:
+            print("Please Enter a valid Number!")
+    
+    - This is called __Exception Handling__
+
+### Task
+
+1. Write a program that:
+    1. Asks the user for a number
+    2. Tries to convert it into an integer
+    3. If it works, prints the number doubled
+    4. If not, prints _"Invalid input. Please enter a number"_
+
+    - __Answer File__ : *05_day-six.py*
+    - Open terminal and run __python 05_day-six.py__ to test.
+
+------------------------------------------------------------------------------------------------------------------
+# _DAY SEVEN_
+## _Mini Project + Quiz_
+-----------------------------------------------------------------------------------------------
+
+- The goal is to _apply everything from **Days 1-6** into a mini real-life app and test your knowledge_.
+
+### Project: _BMI Calculator_
+
+- Build a program that:
+    1. Asks your name.
+    2. Asks for your weight (kg)
+    3. Asks for your weight (m)
+    4. Calculates and displays your BMI
+        - BMI = weight / (height ** 2)
+    5. Classifies it
+        - BMI < 18.5 => Underweight
+        - 18.5-24.9 => Normal
+        - 25-29.0 => overweight
+        - 30+ => obese
+    
+- __Answer File:__ *06_day-seven.py*.
+    - run __python 06_day-seven.py__ to test.
+#### Week One Done
+---------------------------------------------------------------------------------------------------------------------
