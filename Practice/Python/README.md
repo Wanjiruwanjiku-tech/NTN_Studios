@@ -103,5 +103,48 @@
 
     age = int(input("Enter your age, "))
     __*int()* converts the users input into a whole number/ the appropriate data type that can be used in the program__
+-------------------------------------------------------------------------------------------
 
+# DAY FOUR
+## Basic Math and Arithmetic Operators
+-----------------------------------------------------------------------------------
+- Our goal is to _perform math operations in python and build a simple calculator_.
 
+### Key concepts
+#### Arithmetic Operators
+
+|__Operator__ | __Description__   |__Example__ |__Result__|
+|-------------|-----------------  |------------|----------|
+|_+_          | Addition          | 3 + 2      | 5        |
+|_-_          | Subtraction       | 3 - 2      | 1        |
+|_*_          | Multiplication    | 3 * 2      | 6        |
+|_/_          | Division          | 9 / 2      | 4.5      |
+|_//_         | Floor division    | 9 // 2     | 4        |
+|_%_          | Modulus(remainder)| 9 % 2      | 1        |
+|_**_         | Exponentiation    | 2 ** 3     | 8        |
+---------------------------------------------------------------------------
+
+# DAY FIVE
+## Working with strings
+------------------------------------------------------------------------------
+- The goal is to _understand how to manipulate and format strings using python's built in methods_.
+
+### Key concepts
+
+1. Common string methods
+    text = "Natalie"
+    - __text.strip()__ - removes whitespace
+    - __text.lower()__ - turn all text to lowercase
+    - __text.upper()__ - turns all text to uppercase
+    - __text.replace("Natalie", "Python pro")__ - replaces selected words with the specified word
+    - __text.split(",")__ - splits words, and returns a list
+
+2. Concatenation (__Joining strings together__)
+    name = "Natalie"
+    greeting = "Hello, " + name + "!"
+
+3. Formatted strings (__f-strings__)
+    age =27
+    print(f"I am {age} years old)
+
+---------------------------------------------------------------------------------------------------------------------------------
