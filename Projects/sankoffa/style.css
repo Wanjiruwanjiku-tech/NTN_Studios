@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #f2f2f2, #e6e6e6);
+    color: #333;
+    overflow: hidden;
+}
+
+.carousel {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+.scene {
+    scroll-snap-align: start;
+    min-height: 100vh;
+    padding: 4em 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('./images/bg1.jpg') center/cover no-repeat;
+    color: #fff;
+    transition: background 1s ease-in-out;
+}
+
+.scene:nth-child(even) {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('./images/bg2.jpg') center/cover no-repeat;
+}
+
+.scene h2 {
+    font-size: 2rem;
+    max-width: 800px;
+    line-height: 1.6;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1.5rem;
+    border-radius: 15px;
+    animation: fadeIn 2s ease-in-out forwards;
+    opacity: 0;
+}
+
+.scene audio {
+    margin-top: 1.5rem;
+    width: 300px;
+    accent-color: #ffcc00;
+    border-radius: 5px;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+}
