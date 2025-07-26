@@ -13,36 +13,36 @@
 
 ### Quick Links
 
-[Go to Day 1](#day-one)
-[Go to Day 2](#day-two)
-[Go to Day 3](#day-three)
-[Go to Day 4](#day-four)
-[Go to Day 5](#day-five)
-[Go to Day 6](#day-six)
-[Go to Day 7](#day-seven)
-[Go to Day 8](#day-eight)
-[Go to Day 9](#day-nine)
-[Go to Day 10](#day-ten)
-[Go to Day 11](#day-eleven)
-[Go to Day 12](#day-tweleve)
-[Go to Day 13](#day-thirteen)
-[Go to Day 14](#day-fourteen)
-[Go to Day 15](#day-fifteen)
-[Go to Day 16](#day-sixteen)
-[Go to Day 17](#day-seventeen)
-[Go to Day 18](#day-eighteen)
-[Go to Day 19](#day-nineteen)
-[Go to Day 20](#day-twenty)
-[Go to Day 21](#day-twenty-one)
-[Go to Day 22](#day-twenty-two)
-[Go to Day 23](#day-twenty-three)
-[Go to Day 24](#day-twenty-four)
-[Go to Day 25](#day-twenty-five)
-[Go to Day 26](#day-twenty-six)
-[Go to Day 27](#day-twenty-seven)
-[Go to Day 28](#day-twenty-eight)
-[Go to Day 29](#day-twenty-nine)
-[Go to Day 30](#day-thirty)
+[Go to Day 1](#day-one )
+[Go to Day 2](#day-two )
+[Go to Day 3](#day-three )
+[Go to Day 4](#day-four )
+[Go to Day 5](#day-five )
+[Go to Day 6](#day-six )
+[Go to Day 7](#day-seven )
+[Go to Day 8](#day-eight )
+[Go to Day 9](#day-nine )
+[Go to Day 10](#day-ten )
+[Go to Day 11](#day-eleven )
+[Go to Day 12](#day-tweleve )
+[Go to Day 13](#day-thirteen )
+[Go to Day 14](#day-fourteen )
+[Go to Day 15](#day-fifteen )
+[Go to Day 16](#day-sixteen )
+[Go to Day 17](#day-seventeen )
+[Go to Day 18](#day-eighteen )
+[Go to Day 19](#day-nineteen )
+[Go to Day 20](#day-twenty )
+[Go to Day 21](#day-twenty-one )
+[Go to Day 22](#day-twenty-two )
+[Go to Day 23](#day-twenty-three )
+[Go to Day 24](#day-twenty-four )
+[Go to Day 25](#day-twenty-five )
+[Go to Day 26](#day-twenty-six )
+[Go to Day 27](#day-twenty-seven )
+[Go to Day 28](#day-twenty-eight )
+[Go to Day 29](#day-twenty-nine )
+[Go to Day 30](#day-thirty )
 
 ------------------------------------------------------------------------------------------
 # DAY ONE
@@ -76,11 +76,12 @@
 
 - Python automatically assigns data types when you assign values
 
-__Type__  | __Example__| __Use case__          |
-_str_     | "hello"    | Names, messages, text |
-_int_     | 42         | Whole numbers         |
-_float_   | 3.14       | Decimals              |
-_bool_    | True/False | Logic deecisions      |
+|__Type__  | __Example__| __Use case__          |
+|----------|------------|-----------------------|
+|_str_     | "hello"    | Names, messages, text |
+|_int_     | 42         | Whole numbers         |
+|_float_   | 3.14       | Decimals              |
+|_bool_    | True/False | Logic deecisions      |
 
 -------------------------------------------------------------------------------------------
 
@@ -94,7 +95,7 @@ _bool_    | True/False | Logic deecisions      |
 1. __input()__ function
 - This function *pauses the program and waits for th user to provide input*
 
-    name = inpute("What is Your Name? ")
+    name = input("What is Your Name? ")
     print("hello,", name)
 
 2. __All input values are strings__
