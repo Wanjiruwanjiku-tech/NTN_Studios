@@ -16,37 +16,25 @@
 ---------------------------------------------------------------------------------------------------------
 
 ### Quick Links
+| __Week One__              | __Week Two__                  | __Week Two__                    |
+|---------------------------|-------------------------------|---------------------------------|
+| [Go to Day 1](#day-one )  | [Go to Day 8](#day-eight )    | [Go to Day 15](#day-fifteen )   |
+| [Go to Day 2](#day-two )  | [Go to Day 9](#day-nine )     | [Go to Day 16](#day-sixteen )   |
+| [Go to Day 3](#day-three )| [Go to Day 10](#day-ten )     | [Go to Day 17](#day-seventeen ) |
+| [Go to Day 4](#day-four ) | [Go to Day 11](#day-eleven )  | [Go to Day 18](#day-eighteen )  |
+| [Go to Day 5](#day-five ) | [Go to Day 12](#day-tweleve ) | [Go to Day 19](#day-nineteen )  |
+| [Go to Day 6](#day-six )  | [Go to Day 13](#day-thirteen )| [Go to Day 20](#day-twenty )    |
+| [Go to Day 7](#day-seven )| [Go to Day 14](#day-fourteen )| [Go to Day 21](#day-twenty-one )|
 
-- [Go to Day 1](#day-one)
-- [Go to Day 2](#day-two)
-- [Go to Day 3](#day-three)
-- [Go to Day 4](#day-four)
-- [Go to Day 5](#day-five)
-- [Go to Day 6](#day-six)
-- [Go to Day 7](#day-seven)
-- [Go to Day 8](#day-eight)
-- [Go to Day 9](#day-nine)
-- [Go to Day 10](#day-ten)
-- [Go to Day 11](#day-eleven)
-- [Go to Day 12](#day-tweleve)
-- [Go to Day 13](#day-thirteen)
-- [Go to Day 14](#day-fourteen)
-- [Go to Day 15](#day-fifteen)
-- [Go to Day 16](#day-sixteen)
-- [Go to Day 17](#day-seventeen)
-- [Go to Day 18](#day-eighteen)
-- [Go to Day 19](#day-nineteen)
-- [Go to Day 20](#day-twenty)
-- [Go to Day 21](#day-twenty-one)
-- [Go to Day 22](#day-twenty-two)
-- [Go to Day 23](#day-twenty-three)
-- [Go to Day 24](#day-twenty-four)
-- [Go to Day 25](#day-twenty-five)
-- [Go to Day 26](#day-twenty-six)
-- [Go to Day 27](#day-twenty-seven)
-- [Go to Day 28](#day-twenty-eight)
-- [Go to Day 29](#day-twenty-nine)
-- [Go to Day 30](#day-thirty)
+| __Week Four__                     | __Week Five__                    |
+|-----------------------------------|----------------------------------|
+| [Go to Day 22](#day-twenty-two )  | [Go to Day 29](#day-twenty-nine )|
+| [Go to Day 23](#day-twenty-three )| [Go to Day 30](#day-thirty )     |
+| [Go to Day 24](#day-twenty-four ) |
+| [Go to Day 25](#day-twenty-five ) | 
+| [Go to Day 26](#day-twenty-six )  |
+| [Go to Day 27](#day-twenty-seven )|
+| [Go to Day 28](#day-twenty-eight )|
 
 ------------------------------------------------------------------------------------------
 # DAY ONE
@@ -106,3 +94,75 @@
 __Answer__: _The project would have traits of both __Utility-Based Agents__ because _it selects the most effective and simplified content for the learner_, and __Learning Agents__ because _it adapts to different learning styles and student feedback overtime_.
 
 ----------------------------------------------------------------------------------------------------
+# DAY THREE
+## Setup + Your First AI Agent
+-----------------------------------------------------
+
+- The goals for today include:
+    1. Set up your Python environment for building AI Agents.
+    2. Write your first simple agent in Python
+    3. Understand how agents make decisions and interact
+
+### Part 1: Setup instructions
+- __Python 3.10+__ installed
+- __VS Code__ installed with the python extension
+- Install __openai__ and __langchain__
+    - *pip install openai*
+    - *pip install langchain*
+
+- _Today we'll begin with a minimal agent that works with or without an_ __OpenAI API key__.
+
+### Part 2: Your First AI Agent - Rule Based Decision Maker
+
+- This agent acts based on simple input using decision rules. It is a simple __AI-like chatbot__ that responds to user input with __predefined replies__. It runs in the terminal and waits for the user to type something then it responds.
+
+- The function takes __one parameter__ input_data that takes the users message.
+
+- We then convert the input to lowercase so that comparisons are not __case-sensitive__.
+
+- We then __define keywords__ with the responses we want to give.
+
+- Then we create a simple __chat interface__.
+    - Print a welcome message when the chatbot starts
+    - Use an infinite loop so that the chatbot can keep running (__while *True*__ does the trick)
+    - Prompt the user to type something (__user_input = *input("You: ")*__)
+    - If the user exits, the loop breaks.
+
+        if user_input.lower() == "exit":
+            print("Exiting...")
+            break
+
+        <!-- Code -->
+        def ai_agent(input_data):
+            input_data = input_data.lower()
+            if "hello" in input_data:
+                return "Hi there! I'm your AI agent. How can I help?"
+            elif "weather" in input_data:
+                return "Sorry, I can't check the weather yet, but I can pretend it's sunny! ☀️"
+            elif "bye" in input_data:
+                return "Goodbye! Hope to chat again soon."
+            else:
+                return "Hmm... I didn't understand that. Try asking something else."
+
+            #Simple interface
+            if __name__ == "__main__":
+                print("🤖 AI Agent: Ready to chat!")
+
+                while True:
+                    user_input = input("You: ")
+                    if user_input.lower() == "exit":
+                    print("Exiting agent. Bye!")
+                    break
+                 response = ai_agent(user_input)
+                 print("Agent:", response)
+
+- ▶️ To run:
+    - In terminal:
+        - python day3_agent.py
+    - Try:
+        1. hello
+        2. what’s the weather like
+        3. bye
+        4. anything random
+        5. then exit to quit.
+-------------------------------------------------------------------------------------------------------------------------------------
