@@ -16,25 +16,16 @@
 ---------------------------------------------------------------------------------------------------------
 
 ### Quick Links
-| __Week One__              | __Week Two__                  | __Week Two__                    |
-|---------------------------|-------------------------------|---------------------------------|
-| [Go to Day 1](#day-one )  | [Go to Day 8](#day-eight )    | [Go to Day 15](#day-fifteen )   |
-| [Go to Day 2](#day-two )  | [Go to Day 9](#day-nine )     | [Go to Day 16](#day-sixteen )   |
-| [Go to Day 3](#day-three )| [Go to Day 10](#day-ten )     | [Go to Day 17](#day-seventeen ) |
-| [Go to Day 4](#day-four ) | [Go to Day 11](#day-eleven )  | [Go to Day 18](#day-eighteen )  |
-| [Go to Day 5](#day-five ) | [Go to Day 12](#day-tweleve ) | [Go to Day 19](#day-nineteen )  |
-| [Go to Day 6](#day-six )  | [Go to Day 13](#day-thirteen )| [Go to Day 20](#day-twenty )    |
-| [Go to Day 7](#day-seven )| [Go to Day 14](#day-fourteen )| [Go to Day 21](#day-twenty-one )|
+| __Week One__              | __Week Two__                  | __Week Two__  | __Week Four__       | __Week Five__      |
+|---------------------------|-------------------------------|---------------|---------------------|--------------------|
+| [Day 1](#day-one )  | [Day 8](#day-eight )    | [Day 15](#day-fifteen )   || [Day 22](#day-twenty-two )  | [Day 29](#day-twenty-nine )|
+| [Day 2](#day-two )  | [Day 9](#day-nine )     | [Day 16](#day-sixteen )   || [Day 23](#day-twenty-three )| [Go to Day 30](#day-thirty )|
+| [Day 3](#day-three )| [Day 10](#day-ten )     | [Day 17](#day-seventeen ) || [Day 24](#day-twenty-four ) |
+| [Day 4](#day-four ) | [Day 11](#day-eleven )  | [Day 18](#day-eighteen )  || [Day 25](#day-twenty-five ) |
+| [Day 5](#day-five ) | [Day 12](#day-tweleve ) | [Day 19](#day-nineteen )  || [Day 26](#day-twenty-six )  |
+| [Day 6](#day-six )  | [Day 13](#day-thirteen )| [Day 20](#day-twenty )    || [Day 27](#day-twenty-seven )|
+| [Day 7](#day-seven )| [Day 14](#day-fourteen )| [Day 21](#day-twenty-one )|| [Day 28](#day-twenty-eight )|
 
-| __Week Four__                     | __Week Five__                    |
-|-----------------------------------|----------------------------------|
-| [Go to Day 22](#day-twenty-two )  | [Go to Day 29](#day-twenty-nine )|
-| [Go to Day 23](#day-twenty-three )| [Go to Day 30](#day-thirty )     |
-| [Go to Day 24](#day-twenty-four ) |
-| [Go to Day 25](#day-twenty-five ) | 
-| [Go to Day 26](#day-twenty-six )  |
-| [Go to Day 27](#day-twenty-seven )|
-| [Go to Day 28](#day-twenty-eight )|
 
 ------------------------------------------------------------------------------------------
 # DAY ONE
