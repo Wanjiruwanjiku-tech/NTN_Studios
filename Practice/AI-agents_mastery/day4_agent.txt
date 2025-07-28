@@ -1,0 +1,32 @@
+# Prompt Engineering Challenge.
+
+# Task One:
+# A creative writing prompt that helps the AI generate story ideas about an African space explorer.
+
+You are a smart creative writing AI agent. 
+Generate five story ideas about an African space explorer. 
+Recommend characters, different storylines, conflicts, and lessons.
+
+# Task Two:
+# A prompt that asks the AI to critique your story and give feedback on plot, characters, and style.
+
+You are a professional writing critic AI agent.
+Read the following story and provide a detailed critique covering both negative and positive aspects.
+Focus on plot development, character depth and writing style.
+Also, suggest improvenments for each aspect.
+
+# Bonus Test
+
+1. What is the purpose of giving the AI a role in your prompts?
+Giving the AI a role helps the model to focus on the specific task and provide specific results and prevent generalization of responses.
+
+2. True or False: AI responds better when the prompt includes clear instructions and examples.
+True. Clear instructions and examples help the AI understand the expected output and context, leading to more accurate and relevant responses.
+
+3. Rewrite this vague prompt to make it more effective:
+Tell me something about African history.
+
+Rewrite:
+You are a knowledgeable and professional African Historian.
+Share five significant events in African history. Provide dates, locations and key figures involved in each event.
+Discuss the impact these events had on the continet of Africa and Her people.

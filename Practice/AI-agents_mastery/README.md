@@ -123,29 +123,30 @@ __Answer__: _The project would have traits of both __Utility-Based Agents__ beca
             print("Exiting...")
             break
 
-        <!-- Code -->
-        def ai_agent(input_data):
-            input_data = input_data.lower()
-            if "hello" in input_data:
-                return "Hi there! I'm your AI agent. How can I help?"
-            elif "weather" in input_data:
-                return "Sorry, I can't check the weather yet, but I can pretend it's sunny! ☀️"
-            elif "bye" in input_data:
-                return "Goodbye! Hope to chat again soon."
-            else:
-                return "Hmm... I didn't understand that. Try asking something else."
+            __*#day3_agent.py*__
+            def ai_agent(input_data):
+                # Simple reactive agent logic
+                input_data = input_data.lower()
+                if "hello" in input_data:
+                    return "Hi there! I'm your AI agent. How can I help?"
+                elif "weather" in input_data:
+                    return "Sorry, I can't check the weather yet, but I can pretend it's sunny! ☀️"
+                elif "bye" in input_data:
+                    return "Goodbye! Hope to chat again soon."
+                else:
+                    return "Hmm... I didn't understand that. Try asking something else."
 
-            #Simple interface
-            if __name__ == "__main__":
-                print("🤖 AI Agent: Ready to chat!")
+                # Simple interface
+                if __name__ == "__main__":
+                    print("🤖 AI Agent: Ready to chat!")
+                    while True:
+                        user_input = input("You: ")
+                        if user_input.lower() == "exit":
+                            print("Exiting agent. Bye!")
+                            break
+                        response = ai_agent(user_input)
+                        print("Agent:", response)
 
-                while True:
-                    user_input = input("You: ")
-                    if user_input.lower() == "exit":
-                    print("Exiting agent. Bye!")
-                    break
-                 response = ai_agent(user_input)
-                 print("Agent:", response)
 
 - ▶️ To run:
     - In terminal:
@@ -156,4 +157,41 @@ __Answer__: _The project would have traits of both __Utility-Based Agents__ beca
         3. bye
         4. anything random
         5. then exit to quit.
--------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------
+
+# DAY FOUR
+## Prompt Engineering for AI agents.
+---------------------------------------------------------
+1. __Part One:__ What is Prompt Engineering?
+    - A __prompt__ is the instruction or input to give to an AI model like GPT, to get a specific type of output.
+    - Insteadnof coding logic step-by-step like traditional programming, you __*use natural language as the "code"*__.
+        - prompt = programming the mind of your AI agent
+
+### Prompt Structure _(Most Common)
+1. __Instruction__ - *What you want the AI to do*
+2. __Context__ - *The background info, goals, roles, constraints*
+3. __Input__ - *The question or user message*
+
+### Examples
+- Examples of Prompts
+    1. __Basic Prompt__
+
+        You are a helpful assistant. Answer concisely.
+        User: What is the capital of Kenya?
+
+    2. __Agent with Role + Task__
+
+        You are a friendly Kenyan tour guide. Recommend 3 exciting places for a visitor to Nairobi on a budget. Include one food spot.
+
+    3. __Logic Prompt (for reasoning)__
+
+        You are a smart AI agent. Solve this step-by-step:
+        If a car travels 60 km in 1.5 hours, what is the average speed?
+
+2. __Part Two:__ Prompt Engineering Challenge
+    - Imagine you are building an AI assistant for African sci-fi.
+    
+    - Create 2 prompts:
+        1. A creative writing prompt that helps the AI generate story ideas about an African space explorer.
+        2. A prompt that asks the AI to critique your story and give feedback on plot, characters, and style.
+        
