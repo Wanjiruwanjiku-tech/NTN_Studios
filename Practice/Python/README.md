@@ -243,6 +243,25 @@
 
 ## DAY NINE
 
+### Comparison and Logical Operators
+
+- The __goal__ is to master multiple conditions using logical operators
+
+#### Logical Operators
+
+|__Operator__|__Description__                       |__Example__      |__Result__       |
+|------------|--------------------------------------|-----------------|-----------------|
+|_and_       |True if both conditions are true      |x > 3 and x < 10 |true             |
+|_or_        |True if at least one condition is true|x > 3 or x < 10  |if either is true|
+|_not_       |Reverses the Result                   |not(x > 5)       |true if x <= 5   |
+
+        age = 20
+        has_id = True
+        if age >= 18 and has_id:
+            print("You can enter.")
+        else:
+            print("Access denied.")
+
 ## DAY TEN
 
 ## DAY ELEVEN
