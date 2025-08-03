@@ -202,3 +202,46 @@
     - run __python 06_day-seven.py__ to test.
 #### Week One Done
 ---------------------------------------------------------------------------------------------------------------------
+
+# DAY EIGHT
+## Making Decisions with _if, elif_ and _else_
+------------------------------------------------------
+
+- The goal is to learnhor to let your program __make decisions__.
+
+### Key Concepts
+
+1. __if__ Statement
+
+        age = 18
+        if age >= 18:
+            print("You are an adult.")
+
+2. __else__ Statement
+
+        if age >= 18:
+            print("You are an adult.")
+        else:
+            print("You are a child.")
+
+3. __elif__ Statement
+
+        if age >= 18:
+            print("You are an adult.")
+        elif age >= 15
+            print("You are a minor")
+        else:
+            print("You are a child.")
+
+### Relational Operators
+
+| __Symbol__| __Meaning__     | __Example *(x = 5)*__|
+|-----------|-----------------|----------------------|
+| *==*      | Equal to        | __x == 5__           |
+| *!=*      | Not equal to    | __x != 3__           |
+| *>*       | Greater than    | __x > 4__            |
+| *<*       | Less than       | __x < 6__            |
+| *>=*      | Greater or equal| __x >= 5__           |
+| *<=*      | Less or equal   | __x <= 5__           |
+
+----------------------------------------------------------
