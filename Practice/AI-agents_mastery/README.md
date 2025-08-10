@@ -200,6 +200,64 @@ __Answer__: _The project would have traits of both __Utility-Based Agents__ beca
 
 ## DAY FIVE
 
+### Your first AI-Powered Agent using free tools
+
+- We will use __mock responses__ to simulate GPT-style output locally while preserving the core logic of a real AI agent.
+
+- This will help you build reusable agent structures that you can plug into OpenAI or other AI models later.
+
+#### What is Context in AI Agents?
+
+- __Context__ is the background information or knowledge that an AI agent uses to understand and respond to user input effectively.
+
+- This helps the agent to respond appropriately based on what has already been said or done.
+
+- Context can include:
+    1. Previous user messages
+    2. Agent's own responses
+    3. Any relevant data or facts
+
+- In __GPT-style models__, context = the prompt + the conversation history + the task instructions.
+  - It is __stateless__, meaning, unless you include past info again in the input it forgets it.
+  - In agents, context is often manually passed or stored in variables, memory or databases etc.
+
+#### What is Memory in AI Agents?
+
+- __Memory__ is the ability of an AI agent to remember past interactions, decisions, and data over time.
+
+- It is the __persistent state__ that the agent can recall across interactions. There are two main types:
+  1. __Short-term memory__ - stores recent interactions, like the last few messages. It lives during the session. Example: _Remembering your name in a session_.
+  2. __Long-term memory__ - stores important information across sessions, like user preferences or past decisions. The information is stored permanently and can be retrieved later. Example: _Remembering your favorite color across multiple chats_.
+
+- In real agents, memory is often stored in:
+  - __Variables__ - for short-term, local memory
+  - __Databases of Files__ - for long-term memory
+  - __Vector stores__ - for semantic recall (e.g., storing embeddings)
+
+#### Mocking GPT-Style Responses
+
+- Since GPT models are expensive or unavailable offline, developers often _mock_ the responses to simulate how an agent would behave. This is done using functions that imitate how GPT would behave.
+
+- Mocking means you simulate a response like
+
+    def mock_gpt_response(prompt):
+        if "hello" in prompt.lower():
+            return "Hi there! I'm your AI agent. How can I help?"
+        elif "weather" in prompt.lower():
+            return "Sorry, I can't check the weather yet, but I can pretend it's sunny! ☀️"
+        elif "bye" in prompt.lower():
+            return "Goodbye! Hope to chat again soon."
+        else:
+            return "Hmm... I didn't understand that. Try asking something else."
+
+- This allows you to test the agent's logic without needing an actual AI model.
+
+#### How Context and Memory work in a Mock Agent
+
+- Let's say you are _building an agent that simulates GPT and remembers the user's favorite color_.
+  1. Remember what you tell it(Memory).
+  2. Respond appropriately based on what it knows(Context).
+
 ## DAY SIX
 
 ## DAY SEVEN

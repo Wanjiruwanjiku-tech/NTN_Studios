@@ -264,6 +264,24 @@
 
 ## DAY TEN
 
+### Nesting and Multiple Conditions
+
+- The goal is to __Learn nested conditionals snd how to combine multiple checks__ for more complex decision making.
+
+1. Nested if statements
+
+- You can place an if statement inside another if statement to create more complex conditions.
+
+        age = 20
+        has_id = True
+        if age >= 18:
+            if has_id:
+                print("You can enter.")
+            else:
+                print("You need an ID.")
+        else:
+            print("You are too young.")
+
 ## DAY ELEVEN
 
 ## DAY TWELVE
