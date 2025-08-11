@@ -258,7 +258,57 @@ __Answer__: _The project would have traits of both __Utility-Based Agents__ beca
   1. Remember what you tell it(Memory).
   2. Respond appropriately based on what it knows(Context).
 
+### Recap
+
+- AI agents are like smart helpers that _percieves its environment(input), decides what to do and then acts(output)_.
+- The core parts of AI agents:
+  - __Perception__: Understanding the environment and user input.
+  - __Decision-making__: Choosing the best action based on context and memory.
+  - __Action__: Executing the chosen action and providing a response.
+
+- The five main types of agents include:
+  1. __Simple Reflex__: Reacts to current input only e.g thermostat
+  2. __Model-Based Reflex__: Uses a bit of memory e.g robot, vacuum
+  3. __Goal-Based__: Takes actions to achieve specific goals e.g chess player
+  4. __Utility-Based__: Considers the _best_ action based on a utility function e.g self-driving car
+  5. __Learning Agent__: Improves over time e.g ChatGPT
+
+- __Architecture__ is the blueprint for how an agent works.
+  1. __Rule-based Architecture__: Hard-coded 'if-then' rules.
+  2. __Planning-based Architecture__: Looks ahead to decide steps before acting.
+  3. __Learning-based Architecture__: Improves performance via data and feedback.
+  4. __Hybrid__: Mixes multiple approaches for flexibility.
+
+- Agents work inside an __environment__, which affects how they behave. Environments can be:
+  - _Fully observable_ vs _Partilly observable_ (can you see everything or not?)
+  - _Deterministic_ vs _stochastic_ (Predictable vs Random)
+  - _Episodic_ vs _Sequential_ (Independent actions vs dependent actions)
+  - _Discrete_ vs _Continuous_ (finite options ns infinite possibilities)
+
+- Agents _Sense_ (input) and _Act_ (output) through specialized componentsa
+  - __Sensors__: Cameras, microphones, APIs for digital agents
+  - __Acutators__: Motors, Speakers, text replies, database writes.
+  - __Loop__: _Sense => Think => Act => Repeat_
+
 ## DAY SIX
+
+### Memory & Context
+
+- The goal for today is to _Understand how AI agents __remember past events__ and __use context__ to make better decisions, and learn how this is implemented in real systems_.
+
+- Types of Memory:
+  1. __Short-Term Memory (Working Memory)__: Stores recent context for immediate use. In AI _chatbots to keeptrack of the last few messages so the conversation makes sense.
+  2. __Long-Term Memory__: Stores Knowledge and experience for latter use.
+  3. __Episodic Memory__: Memory of events that happened in sequence. This helps the AI to track sequences of state and actions for learning.
+  4. __Semantic Memory__: Memory of facts and concepts not events e.g knowing that Nairobi is the capital city of Kenya
+
+- How Agents Use Memory for Context.
+  1. __Personalization__: Knows your preferences from past interactions.
+  2. __Avoid repetition__: Doesn't repeat questions or actions unnecessarily
+  3. __Better reasoning__: Uses history to make informed decisions
+  4. __Continuity__: Feels like a "Single ongoing conversation" instead of disconnected responses
+
+- __Insider Tip__: _When building agents, use short term memory for immediate flow, use long term memory for personalization and history, and keep memory scoped (Too much past data can cause confusion or higher compute costs)_
 
 ## DAY SEVEN
 

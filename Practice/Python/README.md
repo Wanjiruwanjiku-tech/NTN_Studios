@@ -284,6 +284,13 @@
 
 ## DAY ELEVEN
 
+### Logical Operators Deep Dive (and, or, not)
+
+- The Goal is to _learn how to combine multiple conditions more effectively_.
+  - _and_ => both conditions must be True
+  - _or_ => at least one must be True
+  - _not_ => reverses the condition
+
 ## DAY TWELVE
 
 ## DAY THIRTEEN

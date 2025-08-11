@@ -52,4 +52,25 @@
   ## DAY 2: Programming Languages and Development
 
 - __GOAL__:
-  - Understand the role of programming languages in software engineering, and how they are used to build software, as well as how to pick the right tools for the job
+- Understand the role of programming languages in software engineering, and how they are used to build software, as well as how to pick the right tools for the job
+
+- A __programming language__ is a way to communicte with computers. Each programming language has its rules (_syntax_) and is good at certain things.
+
+### Types of Programming Languages
+
+|__Type__      |__Example__          |__Best For__                |
+|--------------|---------------------|----------------------------|
+|__High-level__| _Python, JavaScript_|Readable, begginner-friendly|
+|__Low-level__ |_C, Assembly_        |Hardware-level control      |
+|__Web__       |_HTML, CSS, JS_      |Websites                    |
+|__Backend__   |_Java, Python, Go_   |Servers, APIs               |
+|__Systems__   |_C, Rust_            |Operating systems           |
+|__Data/AI__   | _Python, R_         |Machine Learning, Analysis  |
+
+### Development Tools
+
+1. __Text Editor/IDE__: VS Code, IntelliJ, PyCharm
+2. __Version Control__: Git + GitHub (To save and track code)
+3. __Terminal/Command Line__: Where the code and tools run
+4. __Debugger__: Helps find and fix bugs in your code 
+
