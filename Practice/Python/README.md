@@ -293,6 +293,36 @@
 
 ## DAY TWELVE
 
+### Loops (for and while)
+
+- __For loops__ _repeat for each item in a collection_
+
+  fruits = ["apple", "banana", "cherry"]
+  forr fruit in fruits:
+    print(f"I like{fruit})
+- It loops through each element in a list, string or other iterable
+- _fruit_ is a loop variable that changes each iteration
+
+- __While loops__ _Repeat while a condition is true_
+
+  count = 1
+  while count <= 5:
+    print(f"count is {count}")
+    count += 1
+- This runs until the condition becomes false. _Forgetting to update the variable can cause an infinite loop_.
+
+#### Loop control statements
+
+1. __break__ Exits the loop immeaditaly
+2. __continue__ Skip the rest of the current iteration and move to the next one
+3. __pass__ Do nothing (placeholder)
+
+  for num in range(1, 6):
+    if num == 3:
+        continue  # Skip printing 3
+    print(num)
+
+
 ## DAY THIRTEEN
 
 ## DAY FOURTEEN
