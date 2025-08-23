@@ -72,5 +72,55 @@
 1. __Text Editor/IDE__: VS Code, IntelliJ, PyCharm
 2. __Version Control__: Git + GitHub (To save and track code)
 3. __Terminal/Command Line__: Where the code and tools run
-4. __Debugger__: Helps find and fix bugs in your code 
+4. __Debugger__: Helps find and fix bugs in your code
 
+- An IDE (_Integrated Development Environment_) is a software application that provides a complete environment suited for writing, testing and debugging code.
+
+- Features of an IDE include:
+  1. __Code Editor__: This is where you write your code examples include _VS Code, PyCharm, IntelliJ_.
+  2. __Syntax Highlighting__: Colors Keywords, variables, functions for easy readability.
+  3. __Code Completion__: The IDE suggests code snippets as you type.
+  4. __Debugger__: Helps the developer find and fix errors
+  5. __Intergrated Terminal__: Many come with a built in terminal
+  6. __Project Management__: The IDE can handle multiple files and folders.
+  7. __Plugins and Extensions__: This allow the developer to add extra features like Git Integration or Docker e.t.c
+- When to use IDEs
+  1. _When developing Applications, websites or APIs_
+  2. _When you need debuging tools_
+  3. _When managing large projects with multiple files_
+  4. _When you want code suggestions and productivity boosts_
+
+- The _Terminal_, Is a text-based interface where you type commands to interact with your computer or server.
+
+- Features of a Terminal include:
+  1. __File Navigation__: The terminal allows the developer to navigate files using commands like _cd, ls, dir_
+  2. __Package Installation__: A developer installs packages and tools via the terminal using commands like _apt, npm, pip_
+  3. __Run and Compile__: Developer can run and compile code they write on the terminal e.g _python app.py, gcc main.c_
+  4. __System management__: Throught the terminal developers can manage systems and process files
+  5. __Connect to remote serves__ using the _ssh_ command
+
+- When to use the Terminal
+  1. _Installing and updating software_
+  2. _Running code quickly_
+  3. _Managing servers or cloud environments_
+  4. _Using Git for Version control_
+  5. _When working in Linux environments_
+
+## 📅 Day 3: How the Web Works (Client–Server Model)
+
+- The goal is to _understand how information flows_ when you open a website or use an app.
+
+- When you type _google.com_
+  1. Client(your browser) asks for information like _"Hi, please give me Googles homepage."_
+  2. Server(computer elsewhere) send a responsee like _"Here is the hompeage HTML, CSS, and JS(Codebase) files"_
+  3. Client(your browser) takes the files and displays them.
+
+### Key Concepts
+
+1. __HTTP__ (_HyperText Transfer Protocol_): This is the language between servers and browsers
+
+2. __Frontend__: What you see i.e the _User Interface(UI)_ like buttons, fonts, colors
+
+3. __Backend__: What happens behind the scenes. This inclides _databases, servers, APIs_.
+
+4. __Database__: Where data lives.
