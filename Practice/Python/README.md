@@ -322,10 +322,53 @@
         continue  # Skip printing 3
     print(num)
 
-
 ## DAY THIRTEEN
 
+### Functions in Python
+
+- Functions help the developer to
+  1. _Organize_ code into reusable pieces
+  2. _Avoid Repetition_ by writing logic once and calling it multiple times
+  3. _Make your code cleaner_ and easier to debug
+
+- __Basic Function__
+  
+  def greet():
+    print("Hello, welcome to Python!")
+
+1. __def__: This is the keyword to define a function
+2. __greet__: This is the function name
+3. __()__: The parenthesis can hold additional inputs or parameters.
+4. __:__: Tells python that a block is starting
+5. __Indentation__: This is the code inside the function
+
+- _To call the function_: __greet()__
+
+- __Functions with Parameters(inputs)__
+
+  def greet_user(name):
+    print(f"Hello {name}, welcome to Python!")
+
+- _To call the function_: greet_user("Natalie")
+
+- __NB__: _break_ is only valid inside a loop. To fix this, use _exit()_ or _sys.exit()_ to terminate the program when the user types "exit":
+
 ## DAY FOURTEEN
+
+### Functions with Parameters and Return Values
+
+- In many cases, _functions return values_ instead of printing them. This makes them more reusable.
+
+  def square(number):
+    return number * number
+
+result = square(5)
+print("The square is:", result)
+
+- 🔎 What’s happening here
+  1. square(5) runs the function.
+  2. Instead of printing inside, it returns the result.
+  3. We store it in result and print later.
 
 ## DAY FIFTEEN
 

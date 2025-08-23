@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Daily Tracker - St. Rita</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="manifest" href="manifest.json">
+    </head>
+    <body>
+        <header class="header">
+            <h1>🌹 Daily System Tracker</h1>
+            <label class="date-row">Date: <input id="date" type="date" aria-label="Entry date"/></label>
+        </header>
+
+        <main>
+            <section>
+                <label>🌸 Affirmation
+                    <input id="affirmation" type="text" placeholder="One sentence that sets your tone"/>
+                </label>
+                <label>🌞 One priority
+                    <input id="priority" type="text" placeholder="If I do only one thing…"/>
+                </label>
+            </section>
+
+            <section>
+                <h2>🕊️ Small Gentle Actions</h2>
+                <label>☑ Health <input id="actions-health" type="text" placeholder="Water / stretch / walk"/></label>
+                <label>☑ Voice/Expression <input id="actions-voice" type="text" placeholder="1 sentence / share / ask"/></label>
+                <label>☑ Growth/Learning <input id="actions-growth" type="text" placeholder="Read 1 page / watch 1 lesson"/></label>
+            </section>
+
+            <section>
+                <h2>⏸️ Midday Check-In</h2>
+                <fieldset class="energy" aria-label="Energy level">
+                    <legend>How’s my energy?</legend>
+                    <label><input type="radio" name="energy" value="high"> 🔋 High</label>
+                    <label><input type="radio" name="energy" value="medium" checked> ⚡ Medium</label>
+                    <label><input type="radio" name="energy" value="low"> 🌙 Low</label>
+                </fieldset>
+                <label>One adjustment
+                    <input id="adjustment" type="text" placeholder="Slow down / take a walk / hydrate"/>
+                </label>
+            </section>
+
+            <section>
+                <h2>🌙 Evening Reflection</h2>
+                <label>🌹 Nourished me <input id="nourish" type="text"/></label>
+                <label>🕯️ Challenge <input id="challenge" type="text"/></label>
+                <label>💙 I release <input id="release" type="text"/></label>
+            </section>
+
+            <section>
+                <h2>🔄 Weekly Note (Sundays)</h2>
+                <label>This week I carry forward <input id="weekNote" type="text"/></label>
+            </section>
+
+            <div class="actions-row">
+                <button id="saveBtn">Save</button>
+                <button id="printBtn">Print</button>
+                <button id="exportBtn">Export JSON</button>
+                <label class="import">Import JSON <input id="importFile" type="file" accept="application/json" hidden></label>
+            </div>
+
+            <p class="prayer">
+                “Saint Rita, guide me with patience and courage… nothing is impossible with God.”
+            </p>
+        </main>
+        <script src="app.js" async defer></script>
+    </body>
+</html>

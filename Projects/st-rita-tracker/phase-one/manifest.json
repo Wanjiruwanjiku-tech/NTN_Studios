@@ -1,0 +1,9 @@
+{
+  "name": "Daily System Tracker — St. Rita",
+  "short_name": "StRita Tracker",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6A1B9A",
+  "icons": []
+}

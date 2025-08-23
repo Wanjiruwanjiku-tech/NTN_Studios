@@ -1,0 +1,24 @@
+:root { --rose:#AD1457; --plum:#6A1B9A; --ink:#333; --line:#E5E7EB; }
+* { box-sizing: border-box; }
+body { font: 16px/1.5 system-ui, Segoe UI, Roboto, Arial; color: var(--ink); margin: 16px; }
+.header { display:flex; gap:12px; justify-content:space-between; align-items:end; flex-wrap:wrap; }
+h1 { color: var(--plum); margin: 0 0 8px; }
+h2 { color: var(--rose); margin: 24px 0 8px; }
+label { display:block; margin: 8px 0; }
+input[type="text"], input[type="date"] {
+  width: 100%; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px;
+}
+fieldset.energy { border: 1px dashed var(--line); border-radius: 10px; padding: 8px 12px; }
+.energy label { margin-right: 12px; }
+.actions-row { display:flex; flex-wrap:wrap; gap:8px; margin: 16px 0 24px; }
+button, .import {
+  padding: 8px 12px; border-radius: 10px; border: 1px solid var(--line); background: #fff; cursor: pointer;
+}
+.prayer { text-align:center; color:#555; font-style: italic; margin: 24px 0; }
+
+/* Print: hide buttons; add generous margins for A4/Letter */
+@media print {
+  .actions-row { display:none !important; }
+  body { margin: 18mm; }
+  input { border: 1px solid #bbb; }
+}
