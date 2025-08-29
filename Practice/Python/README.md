@@ -372,6 +372,62 @@ print("The square is:", result)
 
 ## DAY FIFTEEN
 
+### Data Structures: Lists
+
+- Lists are like containers that hold multiple items in one variable. Lists are __Ordered__ meaning each item has its own position, Lists are __Mutable__ meaning you can change the contents inside and Lists can __hold different data types__.
+
+  fruits = ["apple", "banana", "cherry", ]
+  print(fruits[0])  #This prints "apple"
+  print(fruits[2])  #This prints "cherry"
+  print(fruits[1])  #This prints "banana"
+  print(fruits[-1])  #This prints "cherry"
+
+- Each item's position is called an __index__. Positive inddexing starts from _[0]_ while negaative indexing starts from _[-1]_.
+- Common methods include:
+  1. __list.append(x)__: Add an item to the end of the list. Similar to _a[len(a):] = [x]_
+  2. __list.extend(iterable)__: Extend the list by appending all the items from the iterable.
+  3.__list.insert(index, x)__: Insert an item at a given position/index. The first argument is the index of the element before which to insert.
+  4. __list.remove(x)__: Remove the first item whose value is equal to x, it raises a value error if no such item is found.
+  5. __list.pop([index])__: Removes the item at the given position and return it. If no index is specified, _list.pop()_, removes the last item on the list.
+  6. __list.clear()__: Removes all items on the list similar to _del a[:]_.
+
+#### Using lists as a Stack
+
+- The list methods make it easy to use a list as a stack, where _the last element added is the first element retrieved_ (Last-in, first-out). To add an item to the top use __list.append(x)__ an to retrieve an item from the top of the stack use __list.pop()__
+
+#### Using Lists as queues
+
+- It is also possible to use a list as a queue. where _the frist element added is the first element retrieved_ (first-in, first-out). However, lists are not as efficient for this purpose because doing inserts and pops from the begininng of a list is slow, since all other elements have to be shifted one by one. To implement a queue, use _collections.deque_
+  - _from collections import deque_
+  - _queue = deque(["Eric", "Martin", "James",])_
+  - _queue.append("Terry") #Terry arrives_
+  - _queue.append("Graham") #Graham arrives_
+  - _queue.popleft() # Eric the first to arrive now leaves_
+  - _queue.popleft() # Martin the second to arrive now leaves_
+
+#### List Comprehensions
+
+- List comprehensions provide a concise way to create lists. A short and elegant way.
+- Instead of writing loops line by line, you can generate lists in one line
+
+- structure:
+  - [expression for item in iterable if condition]
+
+  1. __expression__: _What to do with each item e.g square it, double it, convert it._
+  2. __item__: _Each item in the iterable(like a loop variable)._
+  3. __iterable__: _Something you loop over (list, tuple, string e.t.c)_
+  4. __If condition(_optional_)__: _Filter items based on a rule._
+
+- A common application for list comprehensions is to make a new list where each element is a result of some operation applied to each item of another sequence/iterable. OR create a subsequence of those elements that satisfy a certain condition
+
+    numbers = [1, 2, 3, 4, 5]
+    squares = [number**2 for number in numbers]
+    print(squares) # [1, 4, 9, 16, 25]
+
+    numbers = [1, 2, 3, 4, 5, 6]
+    evens = [n for n in numbers if n % 2 == 0]
+    print(evens) # [2, 4, 6]
+
 ## DAY SIXTEEN
 
 ## DAY SEVENTEEN
