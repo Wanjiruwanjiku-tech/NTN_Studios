@@ -430,6 +430,20 @@ print("The square is:", result)
 
 ## DAY SIXTEEN
 
+### OOP IN PYTHON
+
+- OOP is a programming paradigm where instead of writing multiple functions or having multiple variables, related data is grouped into objects. This allows programs to be more scalable especially if they are large and also makes code reusable.
+
+- OOP has 4 components/pillars including:
+
+1. Encapsulation where related data is grouped
+2. Abstraction where the how it works is kept away from the developer allowing them to focus on projects
+3. Inheritance where different objects can inherit attributes from others
+4. Polymorphism where the same method can behave differently
+
+- To create objects we first define classes. A class is like a blueprint defining attributes/variables and methods/Actions
+
+
 ## DAY SEVENTEEN
 
 ## DAY EIGHTEEN
