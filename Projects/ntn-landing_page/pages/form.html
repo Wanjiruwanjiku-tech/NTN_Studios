@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>NTN - Feedback form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <div class="contact-container" id="contact">
+                <h2>Reach out to Us</h2>
+                <form action="#" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required />
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required />
+
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+254..." />
+
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" />
+
+                    <label for="reason">Reason for Contact</label>
+                    <select id="reason" name="reason" required>
+                        <option value="">Select...</option>
+                        <option value="inquiry">General Inquiry</option>
+                        <option value="collaboration">Collaboration Proposal</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        <script src="" async defer></script>
+    </body>
+</html>
